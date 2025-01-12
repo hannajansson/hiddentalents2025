@@ -1,0 +1,158 @@
+
+/*
+Colours:
+White: #FFF8EC
+Dark: #251B23
+Pink: #EB8F89
+*/
+
+/*
+Typsitt:
+Title: arial-black
+Brödtext: regular-areal
+*/
+
+html {
+  background-color: rgb(44, 13, 74);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column; 
+}
+
+.block-dark {
+  background-color: #251B23;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.blockContent {
+  width: 90vw;
+}
+
+.navBar {
+  width: 100%; 
+  padding-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFF8EC;
+  font-family: 'Arial', sans-serif;
+}
+
+.h1 {
+  color: #FFF8EC;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 8em;
+  line-height: 93%;
+  margin-top: 1.1em;
+}
+
+.textAndImagesWrapper {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block1-bodyAndTicket {
+  width: 50%;
+}
+
+.block1-images {
+  width: 50%;
+  margin-top: 2.5em;
+  border: 1px solid white;
+}
+
+.body-light {
+  color: #ffffff;
+  width: 55%;
+  font-family: 'Arial', sans-serif;
+  margin-top: 2.5em;
+}
+
+.ticketButton {
+  width: fit-content;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  font-size: 1em;
+  background-color: #EB8F89;
+  border: none;
+  margin-top: 5em;
+}
+
+.ticketButton:hover {
+  cursor: pointer;
+}
+
+.block-light {
+  background-color: #FFF8EC;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-dark {
+  color: #251B23;
+  width: 55%;
+  font-family: 'Arial', sans-serif;
+  margin-top: 0.4em;
+}
+
+.block1-body {
+  width: 100%;
+}
+
+.questionWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+}
+
+.arrowIcon {
+  margin-right: 1em;
+}
+
+.answer {
+  margin-left: 1.7em;
+}
+
+.questionSeparator {
+  background-color: black;
+  height: 1px;
+  width: 60%;
+}
+
+.h2-light {
+  color: #FFF8EC;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 5em;
+  margin-top: 1.6em;
+}
+
+.h2-dark {
+  color: #251B23;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 5em;
+  margin-top: 1.6em;
+}
+
+.block2Questions {
+  margin-top: 2.5em;
+}

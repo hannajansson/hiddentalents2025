@@ -55,11 +55,21 @@ function App() {
         <div className="blockContent">
           <div className="h2-light">GULDPARTNER</div>
           <div className="body-light">Vi är glada att presentera guldpartner som vill vara med och bidra till ...</div>
+          <div className="body-light">Kort text om företaget! Länkar?</div>
         </div>  
       </div>
       <div className="block-light">
         <div className="blockContent">
           <div className="h2-dark">KVÄLLENS PROGRAM</div>
+          <div className="body-light">17.00 // Fördrink i showroom med dolda talanger och dolda mästerverk</div>
+          <div className="body-light">17.30 // Talang för framtidens bruk - Åsa Hägglund</div>
+          <div className="body-light">17.50 // Musik av kvinnliga talanger - Rebecka Söderström, Cecilia Grönfelt & Edit Vestberg varvas med Maarit Juntunen som läser poesi</div>
+          <div className="body-light">18.30 // Middagsbuffé</div>
+          <div className="body-light">19.30 // Talang i en motorburen värld - Sandra Wiberg</div>
+          <div className="body-light">19.50 // Musik av kvinnliga talanger - Melinda Westin</div>
+          <div className="body-light">20.00 // Efterrättsbuffé</div>
+          <div className="body-light">21.00 // Musik av kvinnliga talanger - Linnea Israelsson, Frida Perstrand och Lena Lindberg</div>
+          <div className="body-light">21.30 // Dansgolvet öppnar med DJ</div>
           
         </div>  
       </div>

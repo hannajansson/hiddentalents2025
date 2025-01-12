@@ -66,16 +66,24 @@ function App() {
       <div className="block-light">
         <div className="blockContent">
           <div className="h2-dark">KVÄLLENS PROGRAM</div>
-          <div className="body-dark schemaItem">17.00 // Fördrink i showroom med dolda talanger och dolda mästerverk</div>
-          <div className="body-dark schemaItem">17.30 // Talang för framtidens bruk - Åsa Hägglund</div>
-          <div className="body-dark schemaItem">17.50 // Musik av kvinnliga talanger - Rebecka Söderström, Cecilia Grönfelt & Edit Vestberg varvas med Maarit Juntunen som läser poesi</div>
-          <div className="body-dark schemaItem">18.30 // Middagsbuffé</div>
-          <div className="body-dark schemaItem">19.30 // Talang i en motorburen värld - Sandra Wiberg</div>
-          <div className="body-dark schemaItem">19.50 // Musik av kvinnliga talanger - Melinda Westin</div>
-          <div className="body-dark schemaItem">20.00 // Efterrättsbuffé</div>
-          <div className="body-dark schemaItem">21.00 // Musik av kvinnliga talanger - Linnea Israelsson, Frida Perstrand och Lena Lindberg</div>
-          <div className="body-dark schemaItem">21.30 // Dansgolvet öppnar med DJ</div>
-          
+          <div className='schemaWrapper'>
+            <div className='schemaImage'>
+              <img src="./assets/icons/Sun icon.svg" className='schemaIcon'/>
+              <div className='schemaLine'></div>
+              <img src="./assets/icons/Moon icon.svg" className='schemaIcon'/>
+            </div>
+            <div className="schemaItems">
+              <div className="body-dark schemaItem">17.00 // Fördrink i showroom med dolda talanger och dolda mästerverk</div>
+              <div className="body-dark schemaItem">17.30 // Talang för framtidens bruk - Åsa Hägglund</div>
+              <div className="body-dark schemaItem">17.50 // Musik av kvinnliga talanger - Rebecka Söderström, Cecilia Grönfelt & Edit Vestberg varvas med Maarit Juntunen som läser poesi</div>
+              <div className="body-dark schemaItem">18.30 // Middagsbuffé</div>
+              <div className="body-dark schemaItem">19.30 // Talang i en motorburen värld - Sandra Wiberg</div>
+              <div className="body-dark schemaItem">19.50 // Musik av kvinnliga talanger - Melinda Westin</div>
+              <div className="body-dark schemaItem">20.00 // Efterrättsbuffé</div>
+              <div className="body-dark schemaItem">21.00 // Musik av kvinnliga talanger - Linnea Israelsson, Frida Perstrand och Lena Lindberg</div>
+              <div className="body-dark schemaItem">21.30 // Dansgolvet öppnar med DJ</div>
+            </div>
+          </div>
         </div>  
       </div>
       <div className="block-dark">

@@ -97,10 +97,6 @@ html {
   margin-top: 2.5em;
 }
 
-.schemaItem {
-  margin-bottom: 2em;
-}
-
 .ticketButton {
   width: fit-content;
   padding-left: 1.2em;
@@ -145,7 +141,6 @@ html {
 }
 
 .block2-bodyText {
-  border: 1px solid red;
   width: 90%;
 }
 
@@ -192,14 +187,14 @@ html {
   color: #FFF8EC;
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   font-size: 5em;
-  margin-top: 1.6em;
+  margin-top: 1em;
 }
 
 .h2-dark {
   color: #251B23;
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   font-size: 5em;
-  margin-top: 1.6em;
+  margin-top: 1em;
 }
 
 .img-small {
@@ -212,4 +207,36 @@ html {
 
 .img-large {
   height: 24em;
+}
+
+.schemaWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.schemaImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2em;
+}
+
+.schemaLine {
+  height: 25em;
+  background-color: black;
+  width: 0.2em;
+}
+
+.schemaIcon {
+  width: 3em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.schemaItems {
+  padding-top: 6em;
+}
+
+.schemaItem {
+  margin-bottom: 1.5em;
 }

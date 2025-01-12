@@ -31,8 +31,8 @@ function App() {
               <button className='ticketButton' onClick={() => {window.open('https://www.tickster.com/se/sv/events/7xfhupvfxtf29h6/2025-02-28/hidden-talents')}}>Köp din biljett här</button>
             </div>
             <div className="block1-images">
-              <img src="assets/images/images11.png"/>
-              <img src="/src/assets/images/Images06.png"/>
+              <img className='img-small' src="./assets/images/Images11.png"/>
+              <img className='img-medium' src="./assets/images/Images06.png"/>
             </div>
           </div>
         </div>

@@ -73,6 +73,11 @@ html {
   width: 50%;
   margin-top: 2.5em;
   border: 1px solid white;
+  height: 23em;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  
 }
 
 .body-light {
@@ -155,4 +160,16 @@ html {
 
 .block2Questions {
   margin-top: 2.5em;
+}
+
+.img-medium {
+  height: 20em;
+  
+}
+
+.img-small {
+  align-self: baseline;
+  height: 14em;
+  padding-right: 4em;
+  
 }

@@ -15,10 +15,10 @@ const ExtendableQuestion: React.FC<ExtendableQuestionProps> = ({
     return (
         <>
             <div className='questionWrapper' onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? (<p className="arrowIcon">A</p>) : (<p className="arrowIcon">V</p>)}
-                <p className=''>{question}</p>
+                {isOpen ? (<img src="./assets/icons/Arrow icon.svg" className='arrowIconUp'/>) : (<img src="./assets/icons/Arrow icon.svg" className='arrowIconDown'/>)}
+                <div className={isOpen ? "questionOpen" : "questionClosed"}>{question}</div>
             </div>
-            {isOpen && <p className="answer">{answer}</p>}
+            {isOpen && <div className="answer">{answer}</div>}
         </>
     )
 }

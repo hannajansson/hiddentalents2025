@@ -12,6 +12,14 @@ function App() {
     {question: "Får jag delta?", answer: "Kanske, om du kan vår hemliga kod för att komma med"},
   ]
 
+  const projectmembers = [
+    {name: "Hanna Jansson", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
+    {name: "Erika Markusson", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
+    {name: "Monica Lindmark", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
+    {name: "Rebecka Söderström", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
+    {name: "Ida Aavik", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"}
+  ]
+
   return (
     <div className="mainWrapper">
       <div className='block-dark'>
@@ -66,22 +74,34 @@ function App() {
       <div className="block-light">
         <div className="blockContent">
           <div className="h2-dark">KVÄLLENS PROGRAM</div>
-          <div className='schemaWrapper'>
-            <div className='schemaImage'>
-              <img src="./assets/icons/Sun icon.svg" className='schemaIcon'/>
-              <div className='schemaLine'></div>
-              <img src="./assets/icons/Moon icon.svg" className='schemaIcon'/>
+          <div className="schemaAndImageWeapper">
+            <div className='schemaWrapper'>
+              <div className='schemaImage'>
+                <img src="./assets/icons/Sun icon.svg" className='schemaIcon'/>
+                <div className='schemaLine'></div>
+                <img src="./assets/icons/Moon icon.svg" className='schemaIcon'/>
+              </div>
+              <div className="schemaItems">
+                <div className="body-dark schemaItem">17.00 // Fördrink i showroom med dolda talanger och dolda mästerverk</div>
+                <div className="body-dark schemaItem">17.30 // Talang för framtidens bruk - Åsa Hägglund</div>
+                <div className="body-dark schemaItem">17.50 // Musik av kvinnliga talanger - Rebecka Söderström, Cecilia Grönfelt & Edit Vestberg varvas med Maarit Juntunen som läser poesi</div>
+                <div className="body-dark schemaItem">18.30 // Middagsbuffé</div>
+                <div className="body-dark schemaItem">19.30 // Talang i en motorburen värld - Sandra Wiberg</div>
+                <div className="body-dark schemaItem">19.50 // Musik av kvinnliga talanger - Melinda Westin</div>
+                <div className="body-dark schemaItem">20.00 // Efterrättsbuffé</div>
+                <div className="body-dark schemaItem">21.00 // Musik av kvinnliga talanger - Linnea Israelsson, Frida Perstrand och Lena Lindberg</div>
+                <div className="body-dark schemaItem">21.30 // Dansgolvet öppnar med DJ</div>
+              </div>
             </div>
-            <div className="schemaItems">
-              <div className="body-dark schemaItem">17.00 // Fördrink i showroom med dolda talanger och dolda mästerverk</div>
-              <div className="body-dark schemaItem">17.30 // Talang för framtidens bruk - Åsa Hägglund</div>
-              <div className="body-dark schemaItem">17.50 // Musik av kvinnliga talanger - Rebecka Söderström, Cecilia Grönfelt & Edit Vestberg varvas med Maarit Juntunen som läser poesi</div>
-              <div className="body-dark schemaItem">18.30 // Middagsbuffé</div>
-              <div className="body-dark schemaItem">19.30 // Talang i en motorburen värld - Sandra Wiberg</div>
-              <div className="body-dark schemaItem">19.50 // Musik av kvinnliga talanger - Melinda Westin</div>
-              <div className="body-dark schemaItem">20.00 // Efterrättsbuffé</div>
-              <div className="body-dark schemaItem">21.00 // Musik av kvinnliga talanger - Linnea Israelsson, Frida Perstrand och Lena Lindberg</div>
-              <div className="body-dark schemaItem">21.30 // Dansgolvet öppnar med DJ</div>
+            <div className='block4-images'>
+              <div className="block4-imageAndTextTop">
+                <img className='img-small block4-imgTop' src="./assets/images/Images06.png"/>
+                <div>Talare1: Johanna Lundin</div>
+              </div>
+              <div className="block4-imageAndTextBottom">
+                <img className='img-small block4-imgBottom' src="./assets/images/Images11.png"/>
+                <div>Talare1: Johanna Lundin</div>
+              </div>
             </div>
           </div>
         </div>  
@@ -89,7 +109,20 @@ function App() {
       <div className="block-dark">
         <div className="blockContent">
           <div className="h2-light">PROJEKTGRUPPEN</div>
-          
+          <div className="body-light">Detta är en underrubrik</div>
+          <div className="projectTeamImages">
+                  {projectmembers.map((member) => (
+                    <>
+                      <div className="projectMemberBackground">
+                        <div className='projectMemberImage'></div>
+                        <div>
+                          <div className='projectMemberName'>{member.name}</div>
+                          <div className='projectMemberDesc'>{member.description}</div>
+                        </div>
+                      </div>
+                    </>
+                  ))}
+          </div>
         </div>  
       </div>
     </div>

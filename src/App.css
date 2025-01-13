@@ -36,6 +36,17 @@ html {
   justify-content: flex-start;
 }
 
+
+.footer-dark {
+  background-color: #251B23;
+  width: 100vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .blockContent {
   width: 90vw;
 }
@@ -61,6 +72,10 @@ html {
   font-size: 8em;
   line-height: 93%;
   margin-top: 1.1em;
+}
+
+.links {
+  color: #FFF8EC;
 }
 
 .block1-textAndImagesWrapper {
@@ -94,6 +109,7 @@ html {
   color: #FFF8EC;
   width: 55%;
   font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
   margin-top: 2.5em;
 }
 
@@ -142,6 +158,7 @@ html {
 
 .block2-bodyText {
   width: 90%;
+  font-size: 1.1em;
 }
 
 .block2Questions {
@@ -235,6 +252,7 @@ html {
 
 .schemaItems {
   padding-top: 6em;
+  font-size: 1.1em;
 }
 
 .schemaItem {

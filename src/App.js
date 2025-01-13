@@ -19,7 +19,7 @@ function App() {
           <div className="navBar">
             <p>28 FEBRUARI 2025</p>
             <img className='navbarLogo' src="./assets/logo/Group 3-1.png"/>
-            <p>Köp biljett</p>
+            <a className="links" href="https://www.tickster.com/se/sv/events/7xfhupvfxtf29h6/2025-02-28/hidden-talents">Köp biljett</a>
           </div>
           
           <div className="h1">
@@ -89,6 +89,13 @@ function App() {
       <div className="block-dark">
         <div className="blockContent">
           <div className="h2-light">PROJEKTGRUPPEN</div>
+          
+        </div>  
+      </div>
+      <div className="footer-dark">
+        <div className="blockContent">
+          <div className="body-light">Vi är en idéel förening som gör detta event enbart av glädjen det ger oss att se de fina kontakterna som skapas under en kväll, så tack tack tack för att du tog dig tiden att läsa igenom vår webbsida och vi hoppas verkligen vi syns i februari - följ oss i våra sociala kanaler för de senaste uppdateringarna</div>
+          <div className="body-light">©2024 Hanna Jansson & Erica Markusson. All Rights Reserved</div>
           
         </div>  
       </div>

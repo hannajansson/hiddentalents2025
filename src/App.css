@@ -25,7 +25,7 @@ html {
 }
 
 .block-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/backgroundimage.png');
+  /*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('#');*/
   background-size: cover;
   background-position: center;
   height: 100vh;

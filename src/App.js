@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="mainWrapper">
-      <div className='block-dark'>
+      <div className='block-image'>
         <div className="blockContent">
           <div className="navBar">
             <p>28 FEBRUARI 2025</p>
@@ -125,11 +125,33 @@ function App() {
           </div>
         </div>  
       </div>
-      <div className="footer-dark">
+      <div className="footer">
         <div className="blockContent">
+          <div className='footer-titles'>
+            <div className="h1">
+              H!DDEN TALENTS
+            </div>
+            <div className="footer-h1-middle">
+              <div className="h1-pink">
+                H!DDEN TALENTS
+              </div>
+              <img className='footer-logo' src="./assets/logo/Group 3-1.png"/>
+              <div className="h1-pink">
+                H!DDEN TALENTS
+              </div>
+            </div>
+            <div className="footer-h1-bottom">
+              <div className="h1-bottom">
+                H!DDEN TALENTS
+              </div>
+              <img className='footer-logo' src="./assets/logo/Group 3.png"/>
+              <div className="h1-bottom">
+                H!DDEN TALENTS
+              </div>
+            </div>
+          </div>
           <div className="body-light">Vi är en idéel förening som gör detta event enbart av glädjen det ger oss att se de fina kontakterna som skapas under en kväll, så tack tack tack för att du tog dig tiden att läsa igenom vår webbsida och vi hoppas verkligen vi syns i februari - följ oss i våra sociala kanaler för de senaste uppdateringarna</div>
           <div className="body-light">©2024 Hanna Jansson & Erica Markusson. All Rights Reserved</div>
-          
         </div>  
       </div>
     </div>

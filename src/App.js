@@ -14,7 +14,7 @@ function App() {
 
   const projectmembers = [
     {name: "Hanna Jansson", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
-    {name: "Erika Markusson", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
+    {name: "Erika Markusson", description: "Bor i Högbyn med sin familj och försöker hitta tid för kreativitet när hon inte jobbar med att stötta startups!"},
     {name: "Monica Lindmark", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
     {name: "Rebecka Söderström", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
     {name: "Ida Aavik", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"}

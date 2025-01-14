@@ -125,6 +125,13 @@ function App() {
           </div>
         </div>  
       </div>
+      <div className="text-container-dark">
+        <div className="blockContent">
+          <div className="h1">H!DDEN TALENTS</div>
+          <div className="h1-pink">TALNETS * H!DDE</div>
+          <div className="h1">NTS * H!DDEN TA</div>
+        </div>  
+      </div>
       <div className="footer-dark">
         <div className="blockContent">
           <div className="body-light">Vi är en idéel förening som gör detta event enbart av glädjen det ger oss att se de fina kontakterna som skapas under en kväll, så tack tack tack för att du tog dig tiden att läsa igenom vår webbsida och vi hoppas verkligen vi syns i februari - följ oss i våra sociala kanaler för de senaste uppdateringarna</div>

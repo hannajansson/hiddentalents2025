@@ -25,7 +25,7 @@ html {
 }
 
 .block-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/backgroundimage.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/Users/hannajansson/Desktop/hiddentalents2025/public/assets/backgroundimage.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -47,16 +47,6 @@ html {
   background-color: #251B23;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.text-container-dark {
-  background-color: #251B23;
-  width: 100vw;
-  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,22 +94,6 @@ html {
   font-size: 8em;
   line-height: 93%;
   width: 10em;
-}
-
-.text-container-dark .h1 {
-    color: #FFF8EC;
-    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-    font-size: 8em;
-    line-height: 93%;
-    margin-top: 0.2em;
-}
-
-.text-container-dark .h1-pink {
-  color: #EB8E89;
-  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-  font-size: 8em;
-  line-height: 93%;
-  margin-top: 0.2em;
 }
 
 .links {

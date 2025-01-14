@@ -125,13 +125,6 @@ function App() {
           </div>
         </div>  
       </div>
-      <div className="text-container-dark">
-        <div className="blockContent">
-          <div className="h1">H!DDEN TALENTS</div>
-          <div className="h1-pink">TALNETS * H!DDE</div>
-          <div className="h1">NTS * H!DDEN TA</div>
-        </div>  
-      </div>
       <div className="footer">
         <div className="blockContent">
           <div className='footer-titles'>

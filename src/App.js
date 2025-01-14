@@ -5,11 +5,11 @@ import ExtendableQuestion from './ExtendableQuestion.tsx';
 function App() {
 
   const questions = [
-    {question: "Kan jag klassas som en dold talang?", answer: "Ja, absoult"},
-    {question: "Hur vet jag om detta är ett event för mig?", answer: "Det är ett event för alla"},
-    {question: "Måste jag visa upp min dolda talang?", answer: "Ja, annars tror vi inte på dig"},
-    {question: "Är en dold talang ett krav för att delta?", answer: "Ja, inga publika talanger tack"},
-    {question: "Får jag delta?", answer: "Kanske, om du kan vår hemliga kod för att komma med"},
+    {question: "Har jag en dold talang?", answer: "Talang handlar inte om att du måste prestera bättre än någon annan eller vinna över andra. Utan det handlar om att du genom naturlig förmåga eller inövad skicklighet gör något som kanske gör dagen lite bättre för dig eller din omgivning. Det kan vara att allt från konstnärligt skapande till ledarskap och att projektleda vardagen."},
+    {question: "Hur vet jag om detta är ett event för mig?", answer: "Kvällen är riktad till kvinnor med koppling till Örnsköldsvik, i alla åldrar, med all slags bakgrund och alla delar av kommunen. Om du är intresserad av att dela med dig av dina erfarenheter, underhållas av talangfulla kvinnor eller inspireras av kvinnors framgångshistorier är detta event för dig. När kvällen är slut ska vi tillsammans ha tagit ett steg för att synliggöra och stärka kvinnors talanger genom samtal, framträdanden och ett showroom."},
+    {question: "Måste jag visa upp min dolda talang?", answer: "Nej, fokus är på att uppmärksamma och värdesätta var individs unika förmågor. Det är inget krav på att delta i någon specifik form men alla som deltar har möjlighet att visa sin talang i ett showroom och genom samtal med andra kvinnor under kvällen."},
+    {question: "Är en dold talang ett krav för att delta?", answer: "Nej, en dold talang är inte ett krav för att delta. Eventet är öppet för alla kvinnor som vill vara en del av gemenskapen och inspireras av andra. Syftet är att uppmärksamma och stärka kvinnors talanger och vem vet, när kvällen är slut kanske du ser att du har en talang som inte ens du visste om?"},
+    {question: "Får jag delta?", answer: "Ja, kom precis som du är! Det blir en kväll för dig att inspireras och bidra till en gemenskap!"},
   ]
 
   const projectmembers = [
@@ -50,7 +50,7 @@ function App() {
           <div className="h2-dark">DOLD TALANG?</div>
           <div className='block2-textAndImagesWrapper'>
             <div>
-              <div className="body-dark block2-bodyText">Den vanligaste frågan vi får är vad en dold talang är och här är vår defintion på en dold talang: “Någon som ... “</div>
+              <div className="body-dark block2-bodyText">Den vanligaste frågan vi får är vad en dold talang är. För oss är det en naturlig förmåga eller skicklighet inom ett visst område som känns genuin och ger glädje för både individen och andra. Vi vill uppmärksamma och värdesätta de unika förmågor som kvinnor borde uppskatta hos sig själva och som andra borde uppskatta att de har.</div>
               <div className="block2Questions">
                 {questions.map((question) => (
                   <>
@@ -83,24 +83,24 @@ function App() {
               </div>
               <div className="schemaItems">
                 <div className="body-dark schemaItem">17.00 // Fördrink i showroom med dolda talanger och dolda mästerverk</div>
-                <div className="body-dark schemaItem">17.30 // Talang för framtidens bruk - Åsa Hägglund</div>
-                <div className="body-dark schemaItem">17.50 // Musik av kvinnliga talanger - Rebecka Söderström, Cecilia Grönfelt & Edit Vestberg varvas med Maarit Juntunen som läser poesi</div>
+                <div className="body-dark schemaItem">17.30 // Vi välkomnas av musik av kvinnliga talanger - Rebecka Söderström mfl</div>
+                <div className="body-dark schemaItem">18.15 // Sidensjö Sparbank presenterar Hidden Speaker: Ulrika Sedin</div>
                 <div className="body-dark schemaItem">18.30 // Middagsbuffé</div>
-                <div className="body-dark schemaItem">19.30 // Talang i en motorburen värld - Sandra Wiberg</div>
-                <div className="body-dark schemaItem">19.50 // Musik av kvinnliga talanger - Melinda Westin</div>
+                <div className="body-dark schemaItem">19.30 // Musik av kvinnliga talanger - Rebecka Söderström mfl</div>
+                <div className="body-dark schemaItem">19.45 // Vägen mot Drakbåts-SM - Josefin Rönnqvist och Linda Karlfors</div>
                 <div className="body-dark schemaItem">20.00 // Efterrättsbuffé</div>
-                <div className="body-dark schemaItem">21.00 // Musik av kvinnliga talanger - Linnea Israelsson, Frida Perstrand och Lena Lindberg</div>
+                <div className="body-dark schemaItem">20.45 // Musik av kvinnliga talanger - Rebecka Söderström mfl</div>
                 <div className="body-dark schemaItem">21.30 // Dansgolvet öppnar med DJ</div>
               </div>
             </div>
             <div className='block4-images'>
               <div className="block4-imageAndTextTop">
                 <img className='img-small block4-imgTop' src="./assets/images/Images06.png"/>
-                <div>Talare1: Johanna Lundin</div>
+                <div>Talare 1: Ulrika Sedin</div>
               </div>
               <div className="block4-imageAndTextBottom">
-                <img className='img-small block4-imgBottom' src="./assets/images/Images11.png"/>
-                <div>Talare1: Johanna Lundin</div>
+                <img className='img-small block4-imgBottom' src="./assets/images/Talare2.JPG"/>
+                <div>Talare 2: Linda & Josefine</div>
               </div>
             </div>
           </div>

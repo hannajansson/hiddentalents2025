@@ -17,8 +17,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 
 .mainWrapper {
@@ -26,21 +24,29 @@ html {
   flex-direction: column; 
 }
 
-.block-dark {
-  background-color: #251B23;
+.block-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/Users/johannalundin/Documents/hiddentalents2025/public/assets/backgroundimage.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-light {
+  background-color: #FFF8EC;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
 }
 
-
-.footer-dark {
+.block-dark {
   background-color: #251B23;
   width: 100vw;
-  height: 35vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,6 +76,7 @@ html {
   align-items: center;
   color: #FFF8EC;
   font-family: 'Arial', sans-serif;
+  margin-bottom: 8em;
 }
 
 .navbarLogo {
@@ -81,7 +88,22 @@ html {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   font-size: 8em;
   line-height: 93%;
-  margin-top: 1.1em;
+}
+
+.h1-pink {
+  color: #EB8F89;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 8em;
+  line-height: 93%;
+  width: 10em;
+}
+
+.h1-bottom {
+  color: #FFF8EC;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 8em;
+  line-height: 93%;
+  width: 10em;
 }
 
 .text-container-dark .h1 {
@@ -153,15 +175,6 @@ html {
 
 .ticketButton:hover {
   cursor: pointer;
-}
-
-.block-light {
-  background-color: #FFF8EC;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .body-dark {
@@ -344,4 +357,45 @@ html {
 .projectMemberDesc {
   font-size: 0.8em;
   margin-bottom: 1em;
+}
+
+.footer {
+  background-color: #251B23;
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: hidden;
+}
+
+.footer-titles {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10em;
+  margin-top: 5em;
+}
+
+.footer-h1-middle {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+  margin-left: -30em;
+}
+
+.footer-h1-bottom {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+  margin-left: -60em;
+}
+
+.footer-logo {
+  height: 6em;
+  padding-right: 1.5em;
 }

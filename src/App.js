@@ -17,7 +17,7 @@ function App() {
     {name: "Erika Markusson", description: "Bor i Högbyn med sin familj och försöker hitta tid för kreativitet när hon inte jobbar med att stötta startups!"},
     {name: "Monica Lindmark", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
     {name: "Rebecka Söderström", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
-    {name: "Ida Aavik", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"}
+    {name: "Ida Aavik", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
   ]
 
   return (
@@ -114,7 +114,7 @@ function App() {
                   {projectmembers.map((member) => (
                     <>
                       <div className="projectMemberBackground">
-                        <div className='projectMemberImage'></div>
+                        <img className='projectMemberImage'>{member.img}</img>
                         <div>
                           <div className='projectMemberName'>{member.name}</div>
                           <div className='projectMemberDesc'>{member.description}</div>
@@ -128,8 +128,15 @@ function App() {
       <div className="footer">
         <div className="blockContent">
           <div className='footer-titles'>
-            <div className="h1">
-              H!DDEN TALENTS
+          <div className="footer-h1-top">
+              <div className="h1-bottom">
+                H!DDEN TALENTS
+              </div>
+              <img className='footer-logo' src="./assets/logo/Group 3.png"/>
+              <div className="h1-bottom">
+                H!DDEN TALENTS
+              </div>
+              <img className='footer-logo' src="./assets/logo/Group 3.png"/>
             </div>
             <div className="footer-h1-middle">
               <div className="h1-pink">

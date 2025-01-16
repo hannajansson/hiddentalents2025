@@ -353,6 +353,14 @@ html {
   margin-top: 5em;
 }
 
+.footer-h1-top {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+  margin-left: -86em;
+}
+
 .footer-h1-middle {
   display: flex;
   flex-direction: row;

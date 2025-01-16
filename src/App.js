@@ -109,7 +109,7 @@ function App() {
       <div className="block-dark">
         <div className="blockContent">
           <div className="h2-light">PROJEKTGRUPPEN</div>
-          <div className="body-light">Detta är en underrubrik</div>
+          <div className="body-light">Sommaren 2024 bildades den ideella föreningen Hidden Talents för att främja att kvinnor ska bli stärkta i sin vardag och känna sig uppskattade. Genom eventet Hidden Talents skapas en scen, showroom och generationsöverskridande nätverk för kvinnor att lyfta varandras dolda talanger.</div>
           <div className="projectTeamImages">
                   {projectmembers.map((member) => (
                     <>

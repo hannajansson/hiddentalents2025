@@ -224,39 +224,49 @@ html {
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
-  .block2-textAndImagesWrapper {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
-@media (max-width: 480px) {
-  .block2-textAndImagesWrapper {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
 .block2-bodyText {
   width: 90%;
   font-size: 1.1em;
 }
 
 .block2Questions {
-  margin-top: 2.5em;
+  width: 80%;
+  margin-top: 2em;
 }
 
 .questionWrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .block2-textAndImagesWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+  }
+
+  .block2Questions {
+    margin-top: 2em;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .block2-bodyText {
+    width: 100%;
+    font-size: 1.1em;
+  }
+
+  .questionWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+  }
 }
 
 .answer {
@@ -290,10 +300,6 @@ html {
   font-weight: bold;
 }
 
-.block2Questions {
-  width: 80%;
-}
-
 .questionSeparator {
   background-color: black;
   height: 1px;
@@ -314,6 +320,22 @@ html {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   font-size: 5em;
   margin-top: 1em;
+}
+
+@media (max-width: 480px) {
+  .h2-light {
+    color: #FFF8EC;
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 2em;
+    margin-top: 1em;
+  }
+  
+  .h2-dark {
+    color: #251B23;
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 2em;
+    margin-top: 1em;
+  }
 }
 
 .img-small {

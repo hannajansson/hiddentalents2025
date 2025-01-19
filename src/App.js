@@ -13,11 +13,11 @@ function App() {
   ]
 
   const projectmembers = [
-    {name: "Hanna Jansson", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
-    {name: "Erika Markusson", description: "Bor i Högbyn med sin familj och försöker hitta tid för kreativitet när hon inte jobbar med att stötta startups!"},
-    {name: "Monica Lindmark", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
-    {name: "Rebecka Söderström", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
-    {name: "Ida Aavik", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!"},
+    {name: "Hanna Jansson", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Hanna.jpg"},
+    {name: "Erica Markusson", description: "Bor i Högbyn med sin familj och försöker hitta tid för kreativitet när hon inte jobbar med att stötta startups!", image: "./assets/images/Erica.png"},
+    {name: "Monica Lindmark", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Monica.png"},
+    {name: "Rebecka Söderström", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Rebecka.JPG"},
+    {name: "Ida Aavik", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Ida.JPG"},
   ]
 
   return (
@@ -114,7 +114,9 @@ function App() {
                   {projectmembers.map((member) => (
                     <>
                       <div className="projectMemberBackground">
-                        <img className='projectMemberImage'>{member.img}</img>
+                        <div className='projectMemberImageDiv'>
+                          <img src={member.image} className='projectMemberImage'>{member.img}</img>
+                        </div>
                         <div>
                           <div className='projectMemberName'>{member.name}</div>
                           <div className='projectMemberDesc'>{member.description}</div>
@@ -157,8 +159,19 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="body-light">Vi är en idéel förening som gör detta event enbart av glädjen det ger oss att se de fina kontakterna som skapas under en kväll, så tack tack tack för att du tog dig tiden att läsa igenom vår webbsida och vi hoppas verkligen vi syns i februari - följ oss i våra sociala kanaler för de senaste uppdateringarna</div>
-          <div className="body-light">©2024 Hanna Jansson & Erica Markusson. All Rights Reserved</div>
+          <div className='footer-bottom-container'>
+            <div>
+              <div className="body-light">Vi är en idéel förening som gör detta event enbart av glädjen det ger oss att se de fina kontakterna som skapas under en kväll, så tack tack tack för att du tog dig tiden att läsa igenom vår webbsida och vi hoppas verkligen vi syns i februari - följ oss i våra sociala kanaler för de senaste uppdateringarna</div>
+              <div className="body-light-bold">©2024 Hanna Jansson & Erica Markusson. All Rights Reserved</div>
+            </div>
+            <div>
+              <div className='footer-links'>
+                <div onClick={() => {window.open('')}}>Instagram</div>
+                <div onClick={() => {window.open('')}}>Facebook</div>
+                <div onClick={() => {window.open('')}}>LinkedIn</div>
+              </div>
+            </div>
+          </div>
         </div>  
       </div>
     </div>

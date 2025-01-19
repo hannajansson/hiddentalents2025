@@ -66,10 +66,15 @@ function App() {
       </div>
       <div className="block-dark">
         <div className="blockContent">
-          <div className="h2-light">GULDPARTNER</div>
-          <div className="body-light">Vi är glada att presentera guldpartner som vill vara med och bidra till ...</div>
-          <div className="body-light">Kort text om företaget! Länkar?</div>
-        </div>  
+          <div class="logo-container">
+          <p class="paragraph-logo">Våra möjliggörare</p>
+          <div class="logo-row">
+            <img src="./assets/logo/Hotellogo.png" alt="Logo 1" class="logo-img" />
+            <img src="./assets/logo/Stattlogo.png" alt="Logo 2" class="logo-img" />
+            <img src="./assets/logo/Sidensjologo.png" alt="Logo 3" class="logo-img" />
+          </div>
+        </div> 
+        </div> 
       </div>
       <div className="block-light">
         <div className="blockContent">

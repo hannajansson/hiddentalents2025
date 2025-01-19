@@ -159,8 +159,19 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="body-light">Vi är en idéel förening som gör detta event enbart av glädjen det ger oss att se de fina kontakterna som skapas under en kväll, så tack tack tack för att du tog dig tiden att läsa igenom vår webbsida och vi hoppas verkligen vi syns i februari - följ oss i våra sociala kanaler för de senaste uppdateringarna</div>
-          <div className="body-light">©2024 Hanna Jansson & Erica Markusson. All Rights Reserved</div>
+          <div className='footer-bottom-container'>
+            <div>
+              <div className="body-light">Vi är en idéel förening som gör detta event enbart av glädjen det ger oss att se de fina kontakterna som skapas under en kväll, så tack tack tack för att du tog dig tiden att läsa igenom vår webbsida och vi hoppas verkligen vi syns i februari - följ oss i våra sociala kanaler för de senaste uppdateringarna</div>
+              <div className="body-light-bold">©2024 Hanna Jansson & Erica Markusson. All Rights Reserved</div>
+            </div>
+            <div>
+              <div className='footer-links'>
+                <div onClick={() => {window.open('')}}>Instagram</div>
+                <div onClick={() => {window.open('')}}>Facebook</div>
+                <div onClick={() => {window.open('')}}>LinkedIn</div>
+              </div>
+            </div>
+          </div>
         </div>  
       </div>
     </div>

@@ -365,6 +365,10 @@ html {
   /*margin: 0 auto; /* Centers the image if needed */
 }
 
+.img-small {
+  height: 14em; /* Maintains the aspect ratio */
+}
+
 @media (max-width: 768px) {
   .block4-imageAndTextBottom {
     max-width: 80%; /* Allow full width on smaller devices */
@@ -378,6 +382,8 @@ html {
     width: 50%;
     padding: 20px;
   }
+}
+
 @media (max-width: 480px) {
   .h2-light {
     color: #FFF8EC;

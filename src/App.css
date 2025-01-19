@@ -72,11 +72,11 @@ html {
 .block-dark {
   background-color: #251B23;
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  padding-bottom: 5%;
 }
 
 .blockContent {
@@ -235,6 +235,23 @@ html {
   background-color: #EB8F89;
   border: none;
   margin-top: 5em;
+}
+
+.showroomButton {
+  width: fit-content;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  margin-left: 20px;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  font-size: 1em;
+  background-color: #FFF8EC;
+  border: none;
+  margin-top: 5em;
+}
+
+.showroomButton:hover {
+  cursor: pointer;
 }
 
 .ticketButton:hover {
@@ -578,9 +595,50 @@ html {
   padding-bottom: 0.8em;
 }
 
+.paragraph-logo {
+  font-weight: bold;
+  color: #D9D9D9;
+  font-size: 1.2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.8em;
+}
+
 .projectMemberDesc {
   font-size: 0.8em;
   margin-bottom: 1em;
+}
+
+.logo-container {
+  width: 100%; /* Full width container */
+  max-width: 1200px; /* Optional: Restrict max width */
+  padding-top: 20px; /* Add some spacing around */
+  text-align: left; /* Left-align content */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.logo-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px; /* Space between title and logos */
+}
+
+.logo-row {
+  display: flex; /* Arrange logos in a row */
+  flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+  gap: 20px; /* Add space between logos */
+}
+
+.logo-img {
+  height: 80px; /* Set a consistent height for all logos */
+  width: auto; /* Automatically adjust width to preserve aspect ratio */
+  object-fit: contain; /* Ensure the entire logo fits without distortion */
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    height: 80px;
+    max-width: 200px; /* Reduce logo size on smaller screens */
+  }
 }
 
 .footer {

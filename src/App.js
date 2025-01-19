@@ -37,6 +37,7 @@ function App() {
             <div className="block1-bodyAndTicket">
               <div className='body-light block1-body'>En kväll där vi lyfter dolda talanger hos kvinnor med stark koppling till Örnsköldsvik. och massor med text som är beskrivande typ som en om text man kan läsa här</div>
               <button className='ticketButton' onClick={() => {window.open('https://www.tickster.com/se/sv/events/7xfhupvfxtf29h6/2025-02-28/hidden-talents')}}>Köp din biljett här</button>
+              <button className='showroomButton' onClick={() => {window.open('https://docs.google.com/forms/d/e/1FAIpQLSd6ffH3sNMSU8YFw5trZEgzcFxGCwYHgauP-eDHgqqUAGTtEg/viewform')}}>Anmäl till showroom</button>
             </div>
             <div className="block1-images">
               <img className='img-small block1-smallImg' src="./assets/images/Images11.png"/>
@@ -68,10 +69,15 @@ function App() {
       </div>
       <div className="block-dark">
         <div className="blockContent">
-          <div className="h2-light">GULDPARTNER</div>
-          <div className="body-light">Vi är glada att presentera guldpartner som vill vara med och bidra till ...</div>
-          <div className="body-light">Kort text om företaget! Länkar?</div>
-        </div>  
+          <div class="logo-container">
+          <p class="paragraph-logo">Våra möjliggörare</p>
+          <div class="logo-row">
+            <img src="./assets/logo/Hotellogo.png" alt="Logo 1" class="logo-img" />
+            <img src="./assets/logo/Stattlogo.png" alt="Logo 2" class="logo-img" />
+            <img src="./assets/logo/Sidensjologo.png" alt="Logo 3" class="logo-img" />
+          </div>
+        </div> 
+        </div> 
       </div>
       <div className="block-light">
         <div className="blockContent">

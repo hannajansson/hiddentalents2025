@@ -237,6 +237,23 @@ html {
   margin-top: 5em;
 }
 
+.showroomButton {
+  width: fit-content;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  margin-left: 20px;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  font-size: 1em;
+  background-color: #FFF8EC;
+  border: none;
+  margin-top: 5em;
+}
+
+.showroomButton:hover {
+  cursor: pointer;
+}
+
 .ticketButton:hover {
   cursor: pointer;
 }
@@ -603,7 +620,7 @@ html {
 }
 
 .logo-img {
-  height: 110px; /* Set a consistent height for all logos */
+  height: 80px; /* Set a consistent height for all logos */
   width: auto; /* Automatically adjust width to preserve aspect ratio */
   object-fit: contain; /* Ensure the entire logo fits without distortion */
 }

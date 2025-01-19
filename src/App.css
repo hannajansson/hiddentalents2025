@@ -378,6 +378,8 @@ html {
     width: 50%;
     padding: 20px;
   }
+}
+
 @media (max-width: 480px) {
   .h2-light {
     color: #FFF8EC;

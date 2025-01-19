@@ -80,6 +80,15 @@ html {
   line-height: 93%;
 }
 
+@media (max-width: 768px) {
+  .h1 {
+    color: #FFF8EC;
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 4em;
+    line-height: 93%;
+  }
+}
+
 .h1-pink {
   color: #EB8F89;
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
@@ -111,6 +120,12 @@ html {
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .block1-bodyAndTicket {
+    width: 100%;
+  }
+}
+
 .block1-images {
   width: 50%;
   margin-top: 2.5em;
@@ -118,7 +133,12 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  
+}
+
+@media (max-width: 768px) {
+  .block1-images {
+    display: none;
+  }
 }
 
 .block1-smallImg {

@@ -36,11 +36,37 @@ html {
 
 .block-light {
   background-color: #FFF8EC;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; /* Centers content vertically */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .block-light {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .block-light {
+    padding: 5px;
+    text-align: left; /* Align content for smaller screens */
+  }
+}
+
+.block-light img {
+  max-width: 100%;
+  height: auto;
+}
+
+.block-light p {
+  font-size: 1rem;
+  margin: 0.5em 0;
 }
 
 .block-dark {
@@ -198,6 +224,26 @@ html {
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .block2-textAndImagesWrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 480px) {
+  .block2-textAndImagesWrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
 .block2-bodyText {
   width: 90%;
   font-size: 1.1em;
@@ -216,6 +262,7 @@ html {
 .answer {
   margin-left: 1.7em;
   margin-top: 1em;
+  width: 80%;
 }
 
 .arrowIconUp {
@@ -237,6 +284,14 @@ html {
 
 .questionClosed {
   cursor: pointer;
+}
+
+.questionClosed {
+  font-weight: bold;
+}
+
+.block2Questions {
+  width: 80%;
 }
 
 .questionSeparator {
@@ -270,7 +325,25 @@ html {
 }
 
 .img-large {
-  height: 24em;
+  width: 30%; /* Makes the image take up the full width of its container */
+  max-width: 600px; /* Sets an upper limit for the image size */
+  height: auto; /* Maintains the aspect ratio */
+  display: block; /* Ensures proper alignment */
+  /*margin: 0 auto; /* Centers the image if needed */
+}
+
+@media (max-width: 768px) {
+  .img-large {
+    max-width: 100%; /* Allow full width on smaller devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .img-large {
+    max-width: 100%; /* Allow a bit more space for small screens */
+    max-height: 50vh; /* Limit vertical space usage further */
+    width: 70%;
+  }
 }
 
 .schemaAndImageWeapper {

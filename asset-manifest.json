@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hiddentalents2025/static/css/main.ad19ed13.css",
+    "main.js": "/hiddentalents2025/static/js/main.a4406834.js",
+    "static/js/488.aaff2ce9.chunk.js": "/hiddentalents2025/static/js/488.aaff2ce9.chunk.js",
+    "static/media/backgroundimage.png": "/hiddentalents2025/static/media/backgroundimage.94b492e954b61b46c20c.png",
+    "index.html": "/hiddentalents2025/index.html",
+    "main.ad19ed13.css.map": "/hiddentalents2025/static/css/main.ad19ed13.css.map",
+    "main.a4406834.js.map": "/hiddentalents2025/static/js/main.a4406834.js.map",
+    "488.aaff2ce9.chunk.js.map": "/hiddentalents2025/static/js/488.aaff2ce9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad19ed13.css",
+    "static/js/main.a4406834.js"
+  ]
+}

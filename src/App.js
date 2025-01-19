@@ -60,7 +60,9 @@ function App() {
                 ))}
               </div>
             </div>
-            <img className='img-large' src="./assets/images/Images06.png"/>
+            
+              <img className='img-large' src="./assets/images/Images06.png"/>
+            
           </div>
         </div>
       </div>
@@ -95,7 +97,7 @@ function App() {
             </div>
             <div className='block4-images'>
               <div className="block4-imageAndTextTop">
-                <img className='img-small block4-imgTop' src="./assets/images/Images06.png"/>
+                <img className={window.innerWidth <= 480 ? 'img-small' : 'img-large'} src="./assets/images/Images06.png"/>
                 <div>Talare 1: Ulrika Sedin</div>
               </div>
               <div className="block4-imageAndTextBottom">

@@ -16,7 +16,7 @@ function App() {
     {name: "Hanna Jansson", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Hanna.jpg"},
     {name: "Erica Markusson", description: "Bor i Högbyn med sin familj och försöker hitta tid för kreativitet när hon inte jobbar med att stötta startups!", image: "./assets/images/Erica.png"},
     {name: "Monica Lindmark", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Monica.png"},
-    {name: "Rebecka Söderström", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Rebecka.JPG"},
+    {name: "Rebecka Söderström", description: "Musiklärare, musikutövare och mamma till två döttrar som finner sin inspiration i mötet med andra människor!", image: "./assets/images/Rebecka.JPG"},
     {name: "Ida Aavik", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Ida.JPG"},
   ]
 

@@ -69,6 +69,8 @@ function App() {
       </div>
       <div className="block-dark">
         <div className="blockContent">
+          <div className="h2-light">GULDPARTNER</div>
+          <div className="body-light">Som lokal och fristående Sparbank är vårt syfte att skapa nytta för våra kunder och vårt lokalsamhälle. Förutom att våra vinster går till att bygga en trygg och stabil bank så avsätter vi varje år en del av vinsten till sponsring och bidrag till samhällsnytta, vilket är en central del i sparbanksidén. Våra bidrag sker utifrån mottot ”Vi ser människan”. Vi utgår även från ett hållbarhetsperspektiv, vilket innebär att vi prioriterar och stöttar initiativ som bidrar till de globala målen om hållbar utveckling. Vi har valt att vara guldpartners till Hidden talents för att bidra till deras värdefulla arbete med att främja jämställdhet och framhäva talangfulla kvinnor i vårt samhälle.</div>
           <div class="logo-container">
           <p class="paragraph-logo">Våra möjliggörare</p>
           <div class="logo-row">

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hiddentalents2025/static/css/main.406f4031.css",
-    "main.js": "/hiddentalents2025/static/js/main.f1b247bc.js",
+    "main.css": "/hiddentalents2025/static/css/main.ad19ed13.css",
+    "main.js": "/hiddentalents2025/static/js/main.a4406834.js",
     "static/js/488.aaff2ce9.chunk.js": "/hiddentalents2025/static/js/488.aaff2ce9.chunk.js",
     "static/media/backgroundimage.png": "/hiddentalents2025/static/media/backgroundimage.94b492e954b61b46c20c.png",
     "index.html": "/hiddentalents2025/index.html",
-    "main.406f4031.css.map": "/hiddentalents2025/static/css/main.406f4031.css.map",
-    "main.f1b247bc.js.map": "/hiddentalents2025/static/js/main.f1b247bc.js.map",
+    "main.ad19ed13.css.map": "/hiddentalents2025/static/css/main.ad19ed13.css.map",
+    "main.a4406834.js.map": "/hiddentalents2025/static/js/main.a4406834.js.map",
     "488.aaff2ce9.chunk.js.map": "/hiddentalents2025/static/js/488.aaff2ce9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.406f4031.css",
-    "static/js/main.f1b247bc.js"
+    "static/css/main.ad19ed13.css",
+    "static/js/main.a4406834.js"
   ]
 }

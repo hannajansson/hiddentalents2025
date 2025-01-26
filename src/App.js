@@ -15,9 +15,9 @@ function App() {
   const projectmembers = [
     {name: "Hanna Jansson", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Hanna.jpg"},
     {name: "Erica Markusson", description: "Bor i Högbyn med sin familj och försöker hitta tid för kreativitet när hon inte jobbar med att stötta startups!", image: "./assets/images/Erica.png"},
-    {name: "Monica Lindmark", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Monica.png"},
+    {name: "Monica Lindmark", description: "Pltaschef på VIK Group Event och golf. Inspirerad av människors drivklart och ser möjligheter före hinder!", image: "./assets/images/Monica.png"},
     {name: "Rebecka Söderström", description: "Musiklärare, musikutövare och mamma till två döttrar som finner sin inspiration i mötet med andra människor!", image: "./assets/images/Rebecka.JPG"},
-    {name: "Ida Aavik", description: "Designer för närvarande bosatt i Stockholm som brinner för att skapa ett nätverk av kvinnor som peppar varandra!", image: "./assets/images/Ida.JPG"},
+    {name: "Ida Aavik", description: "Nyinflyttad i Övik och mitt uppe i husbygge. Brinner för användarvänlighet och att ta mig ann nya utmaningar!", image: "./assets/images/Ida.JPG"},
   ]
 
   return (
@@ -61,7 +61,7 @@ function App() {
                 ))}
               </div>
             </div>
-            
+
               <img className='img-large' src="./assets/images/Images06.png"/>
             
           </div>
@@ -69,8 +69,15 @@ function App() {
       </div>
       <div className="block-dark">
         <div className="blockContent">
-          <div className="h2-light">GULDPARTNER</div>
-          <div className="body-light">Som lokal och fristående Sparbank är vårt syfte att skapa nytta för våra kunder och vårt lokalsamhälle. Förutom att våra vinster går till att bygga en trygg och stabil bank så avsätter vi varje år en del av vinsten till sponsring och bidrag till samhällsnytta, vilket är en central del i sparbanksidén. Våra bidrag sker utifrån mottot ”Vi ser människan”. Vi utgår även från ett hållbarhetsperspektiv, vilket innebär att vi prioriterar och stöttar initiativ som bidrar till de globala målen om hållbar utveckling. Vi har valt att vara guldpartners till Hidden talents för att bidra till deras värdefulla arbete med att främja jämställdhet och framhäva talangfulla kvinnor i vårt samhälle.</div>
+        <div className="content-container">
+            <div className="text-content">
+              <div className="h2-light">GULDPARTNER</div>
+              <div className="body-light">
+                Som lokal och fristående Sparbank är vårt syfte att skapa nytta för våra kunder och vårt lokalsamhälle. Förutom att våra vinster går till att bygga en trygg och stabil bank så avsätter vi varje år en del av vinsten till sponsring och bidrag till samhällsnytta, vilket är en central del i sparbanksidén. Våra bidrag sker utifrån mottot ”Vi ser människan”. Vi utgår även från ett hållbarhetsperspektiv, vilket innebär att vi prioriterar och stöttar initiativ som bidrar till de globala målen om hållbar utveckling. Vi har valt att vara guldpartners till Hidden talents för att bidra till deras värdefulla arbete med att främja jämställdhet och framhäva talangfulla kvinnor i vårt samhälle.
+              </div>
+            </div>
+            <img className="img-sponsor" src="./assets/images/Jubileumsloggan med huset.png" alt="Guldpartner" />
+          </div>
           <div class="logo-container">
           <p class="paragraph-logo">Våra möjliggörare</p>
           <div class="logo-row">
@@ -105,7 +112,7 @@ function App() {
             </div>
             <div className='block4-images'>
               <div className="block4-imageAndTextTop">
-                <img className={window.innerWidth <= 480 ? 'img-small' : 'img-large'} src="./assets/images/Images06.png"/>
+                <img className={window.innerWidth <= 480 ? 'img-small' : 'img-large'} src="./assets/images/Ulrika.jpg"/>
                 <div>Talare 1: Ulrika Sedin</div>
               </div>
               <div className="block4-imageAndTextBottom">

@@ -60,7 +60,7 @@ html {
 }
 
 .block-light img {
-  max-width: 30%;
+  max-width: 28%;
   height: auto;
 }
 
@@ -149,6 +149,12 @@ html {
 
 .links {
   color: #FFF8EC;
+}
+
+@media (max-width: 480px) {
+  .links {
+    color: #FFF8EC;
+  }
 }
 
 .block1-textAndImagesWrapper {
@@ -418,9 +424,34 @@ html {
   height: 20em;
 }
 
+.content-container {
+  display: flex;
+  align-items: center; /* Vertically align items */
+}
+
+.img-sponsor {
+  padding-top: 8%;
+  max-width: 28%; /* Adjust image width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .img-large {
-  max-height: 24em;
-  
+  max-width: 10%; /* Adjust image width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stack the items vertically */
+    align-items: flex-start; /* Align items to the left */
+    gap: 10px; /* Reduce the gap */
+  }
+
+  .img-sponsor {
+    max-width: 80%; /* Let the image take full width */
+    margin-top: 10px; /* Add some space between text and image */
+  }
 }
 
 @media (max-width: 480px) {
@@ -611,7 +642,7 @@ html {
 .logo-container {
   width: 100%; /* Full width container */
   max-width: 1200px; /* Optional: Restrict max width */
-  padding-top: 20px; /* Add some spacing around */
+  padding-top: 80px; /* Add some spacing around */
   text-align: left; /* Left-align content */
   box-sizing: border-box; /* Include padding in width calculations */
 }

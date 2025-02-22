@@ -100,14 +100,16 @@ function App() {
               </div>
               <div className="schemaItems">
                 <div className="body-dark schemaItem">17.00 // Fördrink i showroom med dolda talanger och dolda mästerverk</div>
-                <div className="body-dark schemaItem">17.30 // Vi välkomnas av musik av kvinnliga talanger - Rebecka Söderström mfl</div>
+                <div className="body-dark schemaItem">17.30 // Vi välkomnas av dansuppträdande & poesi från kvinnliga talanger</div>
+                <div className="body-dark schemaItem">17.35 // Dansuppträdande av Martina Hanell</div>
+                <div className="body-dark schemaItem">18.00 // Maarit Juntunen framför poesi från Musikhjälpen</div>
                 <div className="body-dark schemaItem">18.15 // Sidensjö Sparbank presenterar Hidden Speaker: Ulrika Sedin</div>
                 <div className="body-dark schemaItem">18.30 // Middagsbuffé</div>
-                <div className="body-dark schemaItem">19.30 // Musik av kvinnliga talanger - Rebecka Söderström mfl</div>
-                <div className="body-dark schemaItem">19.45 // Vägen mot Drakbåts-SM - Josefin Rönnqvist och Linda Karlfors</div>
+                <div className="body-dark schemaItem">19.30 // Musik av Alice Hellström och Siirin Ludén</div>
+                <div className="body-dark schemaItem">19.45 // Vägen mot Drakbåts-SM - Josefine Rönnqvist, Linda Karlfors och och Magdalena Zunino Åberg</div>
                 <div className="body-dark schemaItem">20.00 // Efterrättsbuffé</div>
-                <div className="body-dark schemaItem">20.45 // Musik av kvinnliga talanger - Rebecka Söderström mfl</div>
-                <div className="body-dark schemaItem">21.30 // Dansgolvet öppnar med DJ</div>
+                <div className="body-dark schemaItem">20.45 // Musik av Rebecka Karlsdotter</div>
+                <div className="body-dark schemaItem">21.30 // Dansgolvet öppnar och First Hotell Statt fortsätter</div>
               </div>
             </div>
             <div className='block4-images'>

@@ -27,7 +27,7 @@ function App() {
           <div className="navBar">
             <p>28 FEBRUARI 2025</p>
             <img className='navbarLogo' src="./assets/logo/Group 3-1.png"/>
-            <a className="links" href="https://www.tickster.com/se/sv/events/7xfhupvfxtf29h6/2025-02-28/hidden-talents">Köp biljett</a>
+            <a className="links" href="https://forms.gle/6WL1MckoHWtxnycN8">Anmäl till showroom</a>
           </div>
           
           <div className="h1">

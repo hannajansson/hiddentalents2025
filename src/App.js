@@ -25,7 +25,7 @@ function App() {
       <div className='block-image'>
         <div className="blockContent">
           <div className="navBar">
-            <p>28 FEBRUARI 2025</p>
+            <p>28 FEBRUARI 2026</p>
             <img className='navbarLogo' src="./assets/logo/Group 3-1.png"/>
             <a className="links" href="https://forms.gle/6WL1MckoHWtxnycN8">Anmäl till showroom</a>
           </div>

@@ -17,7 +17,7 @@ function App() {
     {name: "Erica Markusson", description: "Bor i Högbyn med sin familj och försöker hitta tid för kreativitet när hon inte jobbar med att stötta startups!", image: "./assets/images/Erica.png"},
     {name: "Monica Lindmark", description: "Pltaschef på VIK Group Event och golf. Inspirerad av människors drivklart och ser möjligheter före hinder!", image: "./assets/images/Monica.png"},
     {name: "Rebecka Söderström", description: "Musiklärare, musikutövare och mamma till två döttrar som finner sin inspiration i mötet med andra människor!", image: "./assets/images/Rebecka.JPG"},
-    {name: "Ida Aavik", description: "Nyinflyttad i Övik och mitt uppe i husbygge. Brinner för användarvänlighet och att ta mig ann nya utmaningar!", image: "./assets/images/Ida.JPG"},
+    {name: "Catta-Rina Nordensson Hallén", description: "Projektledare på jobbet och hemma. Vill se mer samarbete och stöttning mellan kvinnor.  Gillar Anundsjösöm.", image: "./assets/images/Ida.JPG"},
   ]
 
   return (
